@@ -1,0 +1,187 @@
+::selection {
+  background: yellow;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 60px auto;
+  width: 1000px;
+
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+
+  box-shadow: 0 10px 50px 0 rgba(34, 36, 38, 0.3);
+  transition: box-shadow 0.2s linear;
+
+  position: relative;
+}
+
+.container:hover {
+  box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
+}
+
+.header {
+  margin-left: 20px;
+  display: flex;
+}
+
+.header-col1 {
+  padding: 10px;
+}
+
+.header-col2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.contacts ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.contacts li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.contacts a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s ease-in-out;
+}
+
+.contacts a.skype:hover {
+  color: #00aff0;
+}
+
+.contacts a.telegram:hover {
+  color: #0088cc;
+}
+
+.contacts a.mail:hover {
+  color: dimgrey;
+}
+
+.contacts a.address:hover {
+  color: dimgrey;
+}
+
+.contacts .icon {
+  height: 16px;
+  vertical-align: bottom;
+}
+
+.tldr-header {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 42px;
+  letter-spacing: 0.25rem;
+  margin: 10px 0px 30px;
+}
+
+.tldr a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.tldr a:hover {
+  text-shadow: 0 0 3px rgba(25, 25, 112, 0.3);
+}
+
+.tldr p {
+  line-height: 1.5em;
+  font-stretch: 100%;
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.main {
+  display: flex;
+  /* border: solid 5px black; */
+  justify-content: space-between;
+}
+
+.main .column {
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main .column h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main .column-1 {
+  flex: 0 0 60%;
+  /* background-color: crimson; */
+}
+
+.main .column-2 {
+  flex: 0 0 40%;
+  /* background-color: goldenrod; */
+}
+
+.timeline {
+  list-style: none;
+  font-size: 14px;
+  padding-left: 0px;
+}
+
+.timeline em {
+  font-style: italic;
+}
+
+.position {
+  text-decoration: underline;
+}
+
+.code-samles a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  color: midnightblue;
+}
+
+.code-samles a:hover {
+  color: crimson;
+}
+
+.code-samles li {
+  margin-bottom: 10px;
+}
+
+.container:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 1.5em;
+  top: 1.5em;
+  right: 1.5em;
+  bottom: 1.5em;
+  border-color: midnightblue;
+  border-width: 1em;
+  border-style: solid;
+  pointer-events: none;
+  transition: border-color 0.2s ease-in-out;
+}
