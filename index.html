@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML, CSS & Git Basics</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-col1">
+          <img class="photo" src="img/personal_photo.jpg" alt="" width="200" height="300" />
+        </div>
+        <div class="header-col2">
+          <div class="contacts">
+            <h2 class="name">Igor Tkachuk</h2>
+            <ul>
+              <li>
+                <a href="mailto:I.Tka4yk@gmail.com" class="mail">
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                      fill="currentColor"
+                      d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    ></path>
+                  </svg>
+                  <span>I.Tka4yk@gmail.com</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="skype">
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      fill="currentColor"
+                      d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"
+                    ></path>
+                  </svg>
+                  <span>Igor.Tka4yk</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="telegram">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fab"
+                    data-icon="telegram"
+                    class="icon"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 496 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                    ></path>
+                  </svg>
+                  <span>@IgorTka4yk</span>
+                </a>
+              </li>
+              <br />
+              <li>
+                <a href="#" class="address">
+                  <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                      fill="currentColor"
+                      d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                    ></path>
+                  </svg>
+                  <span>Ukraine, Chernivtsi</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tldr">
+            <h2 class="tldr-header">resume</h2>
+            <p>
+              I hold an system administrator position in company which suplly a gas for personal and production use in region where I live. I have
+              been interested in this IT sphere (Web applications) for several years, but for last couple of years I learn it more. I think this
+              knowledge will give me an oportunity to create useful and complicated products which will facilitate a hard work for lot of people. I
+              suppose that it will allow me to work with interesting people, who are trying to improve the world, who have a spark in the eyes to
+              create something awesome. It`s a hard, requares a lot of time, but in the final point you will be satisfied with your work.
+            </p>
+            <p>
+              I don't have a relevant experience in software production, but i wrote some scripts for automation of my current work.
+            </p>
+            <p>
+              In the end of 2018 I finished the JS cource provided by
+              <a href="https://loftschool.com" target="_blank">LoftSchool</a>
+              and get a
+              <a href="https://loftschool.com/diploma/NPR12944JU213DDA0/en/pdf" target="_blank">diploma </a>. But I need a more relevant experience in
+              production. I hope that RS Scholl will help me with it &#128521;.
+            </p>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="column column-1">
+          <h2>Experience</h2>
+          <ul class="timeline">
+            <li>
+              <p>
+                <em>2013-now</em>
+              </p>
+              <p class="position">
+                Head of Infrastructure, System Administration and Telecommunications department
+              </p>
+              <p>
+                PJSC "Chernivtsygaz" administration of information systems and technologies. Operational and technical guidance and ensuring the
+                uninterrupted running of the local area network, infrastructure servers, video surveillance systems, PSTN.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>2007-2013</em>
+              </p>
+              <p class="position">Software Officer</p>
+              <p>
+                PJSC "Chernivtsygaz" informational protection department. Operational and technical guidance and ensuring the uninterrupted
+                functioning of the local area network. Organization of VPN channels for receiving daily copies of the database of "Subscriber"
+                software from the district offices via the UUCP protocol. User support, setting up new workplaces.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>2002-2007</em>
+              </p>
+              <p class="position">
+                Engineer-administrator of a computer network
+              </p>
+              <p>
+                PJSC "Chernivtsygaz" Department of Automated Control Systems. Operational and technical guidance and ensuring the uninterrupted
+                operation of local area network. Implementation of the services that required interaction with users of LANs and affiliates. User
+                support, setting up new workplaces.
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>2000-2002</em>
+              </p>
+              <p class="position">
+                PJSC "Chernivtsygaz" Department of Automated Control Systems
+              </p>
+              <p>
+                Programming of functional modules and maintenance of the system of accounting of transported gas for legal entities on the basis of
+                IDE Centura Builder SQL Windows «Gas transportation». User support, setting up new workplaces.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="column column-2">
+          <ul class="achievement">
+            <li>
+              <h2>English level</h2>
+              <p>
+                Pre-Intermediate (A2)
+              </p>
+            </li>
+            <li>
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React UI library</li>
+                <li>Node.js</li>
+                <li>Git</li>
+              </ul>
+            </li>
+            <li>
+              <h2>Education</h2>
+              <p>
+                Chernivtsi National University, <br />
+                2000 Applied Mathematics
+              </p>
+            </li>
+            <li>
+              <h2>Code samples</h2>
+              <ul class="code-samles">
+                <li>
+                  <a href="https://github.com/IgorTkachuk/quiz">Quiz built by React library</a>
+                </li>
+                <li>
+                  <a href="https://github.com/IgorTkachuk/automgmt">Simple catalog of auto characteristics built by React</a>
+                </li>
+                <li>
+                  <a href="https://github.com/IgorTkachuk/homepage">Simple CV of one famous person</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
